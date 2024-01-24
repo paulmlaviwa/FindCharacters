@@ -15,7 +15,6 @@ public class Main {
         wordArr[3]="cbc";
 
 
-
         for(Integer index: FindCharacters.findWordsContaining(wordArr, 'a')){
             System.out.println(index);
         }
